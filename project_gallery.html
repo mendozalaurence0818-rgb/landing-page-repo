@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Laurence Mendoza</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=DM+Serif+Display"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .gallery-container { /*column design by w3school*/
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 16px 64px;
+      }
+
+      .gallery-column { /*column design by w3school*/
+        min-width: 300px;
+        max-width: 480px;
+      }
+
+      .gallery-column img { /*column design by w3school*/
+        width: 100%;
+        margin-bottom: 12px;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 4px;
+      }
+
+      .gallery-column img:hover {  /*hover design*/
+        opacity: 0.8;
+      }
+
+      .back-link:hover {
+        text-decoration: underline;
+      }
+
+      .back-link { /*Go back button design*/
+        text-decoration: none;
+        color: #810000;
+        font-weight: bold;
+      }
+
+      .header-custom { /*ensures header is in the middle*/
+        text-align: center;
+        padding: 32px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header-custom">
+      <h2
+        style="font-family: &quot;DM Serif Display&quot;, serif; color: #630000"
+      >
+        Graphic Design Projects
+      </h2>
+      <p>
+        <i
+          >My Projects for Blacklist International, ONIC Philippines Sensui,
+          Homebois Malaysia, Etc.</i
+        >
+      </p>
+      <a href="gallery.html" class="back-link">
+        <i class="fa fa-arrow-left"></i> Back to Gallery
+      </a>
+    </header>
+
+    <div class="gallery-container">
+      <div class="gallery-column">
+        <a href="/IMAGES/1.png" target="_blank">
+          <img src="/IMAGES/1.png"/>
+        </a>
+        <a href="/IMAGES/4.png" target="_blank">
+          <img src="/IMAGES/4.png"/>
+        </a>
+        <a href="/IMAGES/9.png" target="_blank">
+          <img src="/IMAGES/9.png"/>
+        </a>
+      </div>
+
+      <div class="gallery-column">
+        <a href="/IMAGES/2.png" target="_blank">
+          <img src="/IMAGES/2.png"/>
+        </a>
+        <a href="/IMAGES/22.png" target="_blank">
+          <img src="/IMAGES/22.png"/>
+        </a>
+        <a href="/IMAGES/11.png" target="_blank">
+          <img src="/IMAGES/11.png"/>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal | Laurence Mendoza</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=DM+Serif+Display"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .gallery-container { /*column design by w3school*/
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 16px 64px;
+      }
+
+      .gallery-column { /*column design by w3school*/
+        min-width: 300px;
+        max-width: 480px;
+      }
+
+      .gallery-column img { /*column design by w3school*/
+        width: 100%;
+        margin-bottom: 12px;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 4px;
+      }
+
+      .gallery-column img:hover { /*hover design*/
+        opacity: 0.8;
+      }
+
+      .back-link { /*Go back button design*/
+        text-decoration: none;
+        color: #810000;
+        font-weight: bold;
+      }
+
+      .back-link:hover {
+        text-decoration: underline;
+      }
+
+      .header-custom { /*ensures header is in the middle*/
+        text-align: center;
+        padding: 32px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header-custom">
+      <h2
+        style="font-family: &quot;DM Serif Display&quot;, serif; color: #630000"
+      >
+        Personal Collection
+      </h2>
+      <p><i>A trip down memory lane of my self</i></p>
+      <a href="gallery.html" class="back-link">
+        <i class="fa fa-arrow-left"></i> Back to Gallery
+      </a>
+    </header>
+
+    <div class="gallery-container">
+      <div class="gallery-column">
+        <a href="/IMAGES/blogpart1/IMG_9382.JPG" target="_blank">
+          <img src="/IMAGES/blogpart1/IMG_9382.JPG"/>
+        </a>
+        <a href="/IMAGES/blogpart1/IMG_5824.jpg" target="_blank">
+          <img src="/IMAGES/blogpart1/IMG_5824.jpg" />
+        </a>
+      </div>
+
+      <div class="gallery-column">
+        <a href="/IMAGES/childhood/childhood1.jpg" target="_blank">
+          <img src="/IMAGES/childhood/childhood1.jpg"/>
+        </a>
+        <a href="/IMAGES/childhood/childhood4.jpg" target="_blank">
+          <img src="/IMAGES/childhood/childhood4.jpg"/>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
